@@ -25,7 +25,6 @@ botRetries = 0
 
 boards = [[[0 for x in range(10)] for y in range(10)] for z in range(4)]
 # numbers depict the state of the cell 0 - unoccupied (no miss), 1 - miss, 2 - hit, 3 - ship (ally),
-# 4 - ship to be placed 5 - ship to be placed but can't
 
 alreadyShot = []
 
